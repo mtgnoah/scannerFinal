@@ -1,0 +1,7 @@
+name
+section
+date
+hash
+row
+seat
+location

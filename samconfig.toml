@@ -1,0 +1,11 @@
+version = 0.1
+[default]
+[default.deploy]
+[default.deploy.parameters]
+stack_name = "elitescannerapp"
+s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-r7p1ki0x4nrs"
+s3_prefix = "elitescannerapp"
+region = "us-west-1"
+confirm_changeset = true
+capabilities = "CAPABILITY_IAM"
+image_repositories = ["InferenceFunction=727346834459.dkr.ecr.us-west-1.amazonaws.com/elitescanner"]
