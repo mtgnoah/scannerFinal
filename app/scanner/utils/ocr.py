@@ -8,7 +8,7 @@ import sys
 from PIL import Image
 from typing import Tuple
 
-os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = r'eliteseat-4fbd46832f71.json'
+os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = r'eliteseat-4fbd46832f71.env'
 
 class OCR():
 	def initialize(self):

@@ -1,7 +1,6 @@
 from PIL import Image
 from PIL import ImageFilter
 import utils.logger as logger
-from utils.tesseract_ocr import *
 import time
 
 
