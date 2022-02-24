@@ -112,3 +112,5 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+app/scanner/eliteseat-4fbd46832f71.env
+app/scanner/eliteseatkey.env
